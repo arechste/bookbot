@@ -5,8 +5,10 @@ BookBot is my first [Boot.dev](https://www.boot.dev) project! A simple Python ap
 ## Features
 
 - Reads book files from disk
-- Counts total word count
-- Clean, modular code architecture
+- Counts total word count in the file
+- Analyzes character frequency distribution
+- Displays alphabetical characters sorted by frequency (greatest to least)
+- Clean, modular code architecture with separated concerns
 
 ## Usage
 
@@ -14,7 +16,10 @@ BookBot is my first [Boot.dev](https://www.boot.dev) project! A simple Python ap
 python3 main.py
 ```
 
-This will read the Frankenstein text file and output the total word count.
+This will read the Frankenstein text file and output a formatted report with:
+- Total word count
+- Character frequency analysis (alphabetical characters only)
+- Results sorted by character frequency in descending order
 
 ## Project Structure
 
