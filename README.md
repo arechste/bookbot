@@ -10,6 +10,23 @@ BookBot is my first [Boot.dev](https://www.boot.dev) project! A simple Python ap
 - Displays alphabetical characters sorted by frequency (greatest to least)
 - Clean, modular code architecture with separated concerns
 
+## Getting Books
+
+Books need to be stored as text files in the `books/` directory. You can download text files from various sources using `wget`:
+
+```bash
+# Obtain Frankenstein
+wget -O books/frankenstein.txt https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/frankenstein.txt
+
+# Obtain Moby Dick
+wget -O books/mobydick.txt https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/mobydick.txt
+
+# Obtain Pride and Prejudice
+wget -O books/prideandprejudice.txt https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/prideandprejudice.txt
+```
+
+You can also use other text file sources or add your own books to the `books/` directory.
+
 ## Usage
 
 ```bash
