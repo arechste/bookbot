@@ -208,3 +208,13 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
+# merktnix cleanup 2026-11-01: build output and local tooling
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+.next/
+.playwright-mcp/
+.claude/settings.local.json
